@@ -22,8 +22,15 @@
 * [Rewards and penalties](verifiers/rewards-and-penalties.md)
 * [Voting guidelines](verifiers/voting-guidelines.md)
 
+## Security and trust
+
+* [Maintaining a trustless environment](security-and-trust/maintaining-a-trustless-environment.md)
+* [Measures against voting abuse](security-and-trust/measures-against-voting-abuse.md)
+* [Contesting a result](security-and-trust/contesting-a-result.md)
+
 ## Misc
 
+* [VeritiDAO and zkSync](misc/veritidao-and-zksync.md)
 * [Smart contracts](misc/smart-contracts.md)
 * [Token](misc/token.md)
 
