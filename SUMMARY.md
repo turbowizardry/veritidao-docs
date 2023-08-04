@@ -32,7 +32,7 @@
 
 * [VeritiDAO and zkSync](misc/veritidao-and-zksync.md)
 * [Smart contracts](misc/smart-contracts.md)
-* [Token](misc/token.md)
+* [Token (coming soon)](misc/token-coming-soon.md)
 
 ## Links
 
