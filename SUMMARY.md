@@ -8,9 +8,8 @@
 ## Verification Process
 
 * [Create your listing](verification-process/create-your-listing.md)
-* [Voting process](verification-process/voting-process.md)
-* [Minting verified NFTs](verification-process/minting-verified-nfts.md)
 * [Update your listing](verification-process/update-your-listing.md)
+* [Voting process](verification-process/voting-process.md)
 * [Listing fees](verification-process/listing-fees.md)
 
 ## Verifiers

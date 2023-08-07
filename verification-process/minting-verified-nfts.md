@@ -1,2 +1,0 @@
-# Minting verified NFTs
-
