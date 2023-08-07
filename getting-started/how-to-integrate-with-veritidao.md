@@ -83,3 +83,7 @@ contract.on('Listed', async (tokenId) => {
 ```
 
 Make sure to handle any errors that may occur during the execution of these methods.
+
+### Commercial API
+
+VeritiDAO will soon provide a commercial API for retrieving metadata. This service will eliminate the need for users to interact directly with the smart contract, offering a more streamlined and efficient data retrieval process. More information on this upcoming service will be shared in due course.
