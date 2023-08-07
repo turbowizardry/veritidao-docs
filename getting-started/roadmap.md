@@ -6,4 +6,4 @@ description: >-
 
 # Roadmap
 
-<figure><img src=".gitbook/assets/VeritiDAO roadmap.png" alt="VeritiDAO roadmap"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/VeritiDAO roadmap.png" alt="VeritiDAO roadmap"><figcaption></figcaption></figure>

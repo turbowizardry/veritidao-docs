@@ -1,13 +1,10 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Roadmap](roadmap.md)
-
 ## Getting Started
 
+* [Introduction](README.md)
+* [Roadmap](getting-started/roadmap.md)
 * [How to integrate with VeritiDAO](getting-started/how-to-integrate-with-veritidao.md)
-* [Listing your smart contracts](getting-started/listing-your-smart-contracts.md)
-* [Voting on listings](getting-started/voting-on-listings.md)
 
 ## Verification Process
 
@@ -15,6 +12,7 @@
 * [Voting process](verification-process/voting-process.md)
 * [Minting verified NFTs](verification-process/minting-verified-nfts.md)
 * [Update your listing](verification-process/update-your-listing.md)
+* [Listing fees](verification-process/listing-fees.md)
 
 ## Verifiers
 
