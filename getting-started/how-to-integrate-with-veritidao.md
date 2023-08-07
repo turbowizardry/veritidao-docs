@@ -24,7 +24,7 @@ Replace `'YOUR-PROJECT-ID'`, `contractABI`, and `contractAddress` with your actu
 
 **Example 1: Retrieve Metadata**
 
-To retrieve metadata for a specific token, use the `tokenURI` method. This method takes a token ID as an argument and returns a URI string containing the metadata:
+To retrieve metadata for a specific token, use the `tokenURI` method. This method takes a token ID as an argument and returns a JSON object containing the metadata:
 
 ```javascript
 async function retrieveMetadata(tokenId) {
