@@ -24,12 +24,24 @@ Replace `'YOUR-PROJECT-ID'`, `contractABI`, and `contractAddress` with your actu
 
 **Example 1: Retrieve Metadata**
 
-To retrieve metadata for a specific token, use the `tokenURI` method. This method takes a token ID as an argument and returns a JSON object containing the metadata:
+To retrieve metadata for a specific token, use the `tokenURI` method. This method takes a token ID as an argument and returns a JSON object containing the metadata.
+
+Please note that the `tokenURI` function returns a data URI, which already includes the JSON object in a base64 encoded format. We need to decode this string and then parse the JSON. Here's how you can do it:
 
 ```javascript
 async function retrieveMetadata(tokenId) {
     const tokenURI = await contract.tokenURI(tokenId);
-    console.log(`Metadata for token ${tokenId}: ${tokenURI}`);
+    
+    // Remove the prefix from the data URI
+    const base64String = tokenURI.replace('data:application/json;base64,', '');
+
+    // Decode the base64 string
+    const jsonString = Buffer.from(base64String, 'base64').toString();
+
+    // Parse the JSON
+    const metadata = JSON.parse(jsonString);
+
+    console.log(`Metadata for token ${tokenId}:`, metadata);
 }
 ```
 
@@ -43,6 +55,10 @@ async function retrieveAllListings() {
     for(let i = 0; i < totalSupply; i++) {
         const tokenId = await contract.tokenByIndex(i);
         const tokenURI = await contract.tokenURI(tokenId);
+        
+        //Parse the tokenURI string into a JSON object
+        //...
+
         console.log(`Token ID: ${tokenId}, Metadata: ${tokenURI}`);
     }
 }
@@ -55,8 +71,14 @@ To maintain a live feed of all new and updated listings, you can listen to the `
 ```javascript
 contract.on('Listed', async (tokenId) => {
     const tokenURI = await contract.tokenURI(tokenId);
+    
+    //Parse the tokenURI string into a JSON object
+    //...
+        
     console.log(`Token ID ${tokenId} has been listed or updated. Metadata: ${tokenURI}`);
+    
     //Update your database with the new metadata
+    //...
 });
 ```
 
