@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [Roadmap](getting-started/roadmap.md)
-* [How to integrate with VeritiDAO](getting-started/how-to-integrate-with-veritidao.md)
 
 ## Verification Process
 
@@ -20,9 +19,13 @@
 * [Rewards and penalties](verifiers/rewards-and-penalties.md)
 * [Voting guidelines](verifiers/voting-guidelines.md)
 
+## Developers
+
+* [How to integrate with VeritiDAO](developers/how-to-integrate-with-veritidao.md)
+* [Metadata object](developers/metadata-object.md)
+
 ## Security and trust
 
-* [Maintaining a trustless environment](security-and-trust/maintaining-a-trustless-environment.md)
 * [Measures against voting abuse](security-and-trust/measures-against-voting-abuse.md)
 * [Contesting a result](security-and-trust/contesting-a-result.md)
 
