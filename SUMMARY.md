@@ -31,8 +31,10 @@
 ## Misc
 
 * [VeritiDAO and zkSync](misc/veritidao-and-zksync.md)
+* [Partner referral program](misc/partner-referral-program.md)
 * [Smart contracts](misc/smart-contracts.md)
 * [Token (coming soon)](misc/token-coming-soon.md)
+* [Team](misc/team.md)
 
 ## Links
 
